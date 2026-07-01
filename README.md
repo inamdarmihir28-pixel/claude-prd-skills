@@ -3,6 +3,20 @@
 
 Two custom [Claude Skills](https://support.claude.com) for working with Product Requirements Documents in a standard 18-section house template. They are designed to pair: use **prd-creation** to draft a V1, then **prd-enrichment** to pressure-test it as it matures.
 
+## Folder structure:
+Ensure the below folder structure
+claude-prd-skills/
+├── README.md
+├── prd-creation/
+│   ├── SKILL.md
+│   ├── references/template-blueprint.md
+│   └── scripts/build_prd.js
+└── prd-enrichment/
+    ├── SKILL.md
+    ├── references/house-template.md
+    ├── references/pillar-checklists.md
+    └── scripts/annotate.py
+
 ## Skills
 
 ### `prd-creation/`
